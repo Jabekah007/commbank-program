@@ -41,7 +41,7 @@ $ git clone https://github.com/{YOUR_USERNAME}/commbank-server
 ```json
 {
     "ConnectionStrings": {
-        "CommBank": CONNECTION_STRING
+        "CommBank": "{mongodb+srv://<username>:<password>@cluster0.feiajs0.mongodb.net/?retryWrites=true&w=majority}"
     }
 }
 ```
